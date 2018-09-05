@@ -20,12 +20,12 @@ p.resizeimage img { width: 80%; }
 <form action="{{ url_for('moving')}}" method="post">
 {# <form class="" action="views" method="post" id="form-2"></form> #}
 
-  <input type="hidden" name="img_path" value="C:/Users/NSW00_906882/Desktop/testapp/labellingImage/static/images/{{ img }}">
+  <input type="hidden" name="img_path" value="C:/Users/test_labeling_app/static/images/{{ img }}">
 
   {% if category_list %}
 
   {% for category in category_list %}
-  <input type="radio" name="category" value="C:/Users/NSW00_906882/Desktop/testapp/labellingImage/static/labeled/{{ category }}">
+  <input type="radio" name="category" value="C:/Users/test_labeling_app/static/labeled/{{ category }}">
 
   {{ category }}
   <br/>
