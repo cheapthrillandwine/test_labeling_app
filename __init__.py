@@ -2,7 +2,7 @@ from flask import Flask
 from flask_bootstrap import Bootstrap
 
 app = Flask(__name__)
-app.config.from_object('labellingImage.config')
+app.config.from_object('test_labeling_app.config')
 bootsrap = Bootstrap(app)
 
-import labellingImage.views
+import test_labeling_app.views
