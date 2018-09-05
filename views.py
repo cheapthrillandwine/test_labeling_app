@@ -1,5 +1,5 @@
 from flask import request, redirect, url_for, render_template, flash, session, send_from_directory, jsonify, json
-from labellingImage import app
+from test_labeling_app import app
 from werkzeug.utils import secure_filename
 import glob
 import os
